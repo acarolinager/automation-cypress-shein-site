@@ -8,11 +8,11 @@ module.exports = {
   },
 
   env: {
-    baseUrl: 'https://www.twitch.tv/',
+    baseUrl: 'https://br.shein.com/',
     mobileViewportWidthBreakpoint: 414,
     coverage: true,
     codeCoverage: {
-      url: 'https://www.twitch.tv/'
+      url: 'https://br.shein.com/'
     },
     mobile: 'iphone-xr',
     desktop: 'macbook-15'
