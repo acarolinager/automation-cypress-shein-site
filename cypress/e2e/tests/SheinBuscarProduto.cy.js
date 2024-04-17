@@ -21,7 +21,9 @@ describe("Shein Search Product", () => {
   it("[Desktop] Verify page structure", () => {
     cy.viewport(Cypress.env("desktop"));
 
-    home.loginIcon().click();    
+    home.searchBar().click();    
+    home.searchBar().type("vestido preto");
+    home.magnifierButton().click();
   });
 
 });
